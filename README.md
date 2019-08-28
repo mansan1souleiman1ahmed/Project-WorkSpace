@@ -1,6 +1,6 @@
 # Public holidates 
 
-###Welcome to this simple Node package.
+### Welcome to this simple Node package.
 
 This package allows you to show the public holidays of a given country for the current year. You just need to input holidates followed by name of the country you want and then it returns the public.
 
