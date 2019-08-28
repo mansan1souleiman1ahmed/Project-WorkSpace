@@ -47,7 +47,7 @@ async function holidates(para1, para2) {
             });
 
         } catch (err) {
-            console.log("aaaaWe apologize, but we don't have the holidays for that country!");
+            console.log("We apologize, but we don't have the holidays for that country!");
         }
 
 
