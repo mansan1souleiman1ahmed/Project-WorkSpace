@@ -21,8 +21,18 @@ async function holidates(para1, para2) {
 
     if (para2 == undefined) {
 
-
         var countryCode = getCode(para1);
+
+        switch (para1.toLowerCase()) {
+            case 'uk':
+                countryCode = "GB";
+
+                break;
+            case 'usa':
+                countryCode = "US";
+        }
+
+
         var URL = `https://date.nager.at/api/v2/publicholidays/ ${year}/${countryCode}`;
 
 
@@ -37,7 +47,7 @@ async function holidates(para1, para2) {
             });
 
         } catch (err) {
-            console.log("We apologize, but we don't have the holidays for that country!");
+            console.log("aaaaWe apologize, but we don't have the holidays for that country!");
         }
 
 
