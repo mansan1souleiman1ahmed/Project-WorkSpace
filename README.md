@@ -2,13 +2,13 @@
 
 ### Welcome to this simple Node package.
 
-This package allows you to show the public holidays of a given country for the current year. You just need to input holidates followed by name of the country you want and then it returns the public.
+This package allows you to show the public holidays of a given country for the current year. You just need to input holidates followed by name of the country you want and then it returns the public holidays.
 
-However you need to install to set up the environement:
+However you need to set up the environement:
 
 => In the terminal run "sudo npm i -g h0lidates" to install it:
 
-Available commands are:
+Available command is:
 
 holidates country name.
 Shows holidays on given country name on the current year.
